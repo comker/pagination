@@ -1,0 +1,43 @@
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+html * {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "PT Sans", sans-serif;
+  color: #2E4057;
+  background-color: #ffffff;
+}
+
+a {
+  color: #2E4057;
+  text-decoration: none;
+}
+
+section {
+  /* used just to separate paginations */
+  border-bottom: 1px solid #e6e6e6;
+}
+section h2 {
+  width: 90%;
+  margin: 2em auto 0;
+  color: #7d98ba;
+  font-weight: 700;
+  text-align: center;
+}
+@media only screen and (min-width: 1170px) {
+  section h2 {
+    margin: 4em auto 0;
+  }
+}
